@@ -1,5 +1,5 @@
 body{
-  background: rgb(233, 122, 155)
+  background: rgb(95, 27, 27)
 }
 h1 {
   text-align: center;
@@ -51,4 +51,23 @@ li a {
 li a:hover {
   color: aquamarine;
   background: red;
+}
+#image{
+  width: 30%;
+}
+.boxImage {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: coral;
+  top: 50px;
+  left: 0;
+  margin: 20px;
+  border-color: rgb(68, 197, 68);
+  border-width: 20px;
+border-style: solid;
+padding: 20px;
+
 }
